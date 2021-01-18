@@ -22,7 +22,9 @@
         	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
 		<![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
-        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
     </head>
     <body>
     	<div class="loader">
@@ -30,7 +32,32 @@
 			  <div class="double-bounce1"></div>
 			  <div class="double-bounce2"></div>
 			</div>
-    	</div>
+		</div>
+		<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+		  <div class="modal-dialog">
+		  
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Modal Header</h4>
+			  </div>
+			  <div class="modal-body">
+				<p>Some text in the modal.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+			
+		  </div>
+		</div>
+		
+	  </div>
 				
 		<div class="nav-container">
 			<nav class="simple-bar top-bar">
@@ -92,19 +119,9 @@
 						</div>
 					</div>
 					
-					<div class="row space-bottom-large">
-						<div class="col-sm-4">
-							<div class="team-1-member">
-								<img alt="Team Member" src="img/team_1.png ">
-								<h2>Sarah May</h2>
-								<h5>CEO</h5>
-								<p class="space-top-small">
-									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-								</p>
-							</div>
-						</div>
+					<div class="row space-bottom-large">						
 						
-						<div class="col-sm-4">
+						<div class="col-sm-12">
 							<div class="team-1-member">
 								<img alt="Team Member" src="img/team_2.png ">
 								<h2>Thomas Brown</h2>
@@ -113,17 +130,8 @@
 									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 								</p>
 							</div>
-						</div>
+						</div>					
 						
-						<div class="col-sm-4">
-							<div class="team-1-member">
-								<img alt="Team Member" src="img/team_3.png ">
-								<h2>Howard Branson</h2>
-								<h5>PR Specialist</h5>
-								<p class="space-top-small">
-									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-								</p>
-							</div>
 						</div>
 						
 		
@@ -140,8 +148,8 @@
 		
 							<div class="col-md-4 col-sm-6 clearfix">
 								<div class="feature feature-icon-small">
-									<i class="icon icon-document"></i>
-									<h6 class="text-white"> Nemo enim ipsam voluptatem</h6>
+									<i class='fas fa-map-marker-alt' style='font-size:50px'></i>
+									<h6 class="text-white">Landmark project</h6>
 									<p class="text-white">
 										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labor.
 									</p>
@@ -150,8 +158,8 @@
 						
 							<div class="col-md-4 col-sm-6 clearfix">
 								<div class="feature feature-icon-small">
-									<i class="icon icon-linegraph"></i>
-									<h6 class="text-white">Neque porro quisquam</h6>
+									<i class="fa fa-thumbs-up" style="font-size:50px"></i>
+									<h6 class="text-white">Value For Money</h6>
 									<p class="text-white">
 										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labor.
 									</p>
@@ -160,8 +168,8 @@
 						
 							<div class="col-md-4 col-sm-6 clearfix">
 								<div class="feature feature-icon-small">
-									<i class="icon icon-target"></i>
-									<h6 class="text-white">Excepteur occaecat cupidatat</h6>
+									<i class="fa fa-lock" style="font-size:50px"></i>
+									<h6 class="text-white">Safe and Secure</h6>
 									<p class="text-white">
 										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labor.
 									</p>
@@ -262,7 +270,9 @@
         <script src="js/twitterFetcher_v10_min.js"></script>
         <script src="js/lightbox.min.js"></script>
         <script src="js/jquery.countdown.min.js"></script>
-        <script src="js/scripts.js"></script>
+		<script src="js/scripts.js"></script>
+		
+		
     </body>
 </html>
 				
